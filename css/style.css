@@ -1491,7 +1491,7 @@ section.benefit-sec {
     padding-bottom: 50px;
     background-position: top center;
 }
-.digital-market-bg .website-sec {background: none;}
+.digital-market-bg .website-sec {background: none; padding-bottom: 200px;}
 .business-txt h2 {
     font-size: 63px;
     color: #30225c;
