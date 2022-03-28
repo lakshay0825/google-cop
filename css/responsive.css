@@ -93,6 +93,9 @@
     .blue-sec.boost-blue .blue-txt ul li h3 {
         font-size: 22px;
     }
+    .digital-market-bg > h2 {
+        font-size: 50px;
+    }
 }
 @media screen and (max-width:1400px){
     .navigation_menu {
@@ -311,7 +314,9 @@
     .digital-market-bg .website-sec {
         padding-bottom: 100px;
     }
-    
+    .digital-market-bg > h2 {
+        font-size: 40px;
+    }
 }
 
 @media screen and (max-width:1024px){
@@ -603,8 +608,16 @@
     .navigation_menu ul {
         float: unset;
         text-align: center;
+        padding: 0;
     }
     
+    .navigation_menu ul li:last-child {display: inline-block;}
+
+.navigation_menu ul li:nth-last-child(2),.navigation_menu ul li:nth-last-child(3) {
+    display: inline-block;
+    margin: 0 5px;
+}
+
     .navigation_menu ul li {
         padding: 5px 0px;
     }
@@ -757,6 +770,16 @@
     }
     .blue-sec.boost-blue .blue-txt ul li h3 {
         font-size: 18px;
+    }
+    .digital-market-bg {
+        padding-top: 100px;
+    }
+    
+    .digital-market-bg > h2 {
+        font-size: 35px;
+    }
+    .digital-market-bg > h2 br{
+        display: none;
     }
 }
 

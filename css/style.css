@@ -1840,3 +1840,14 @@ margin-right: 10px;
 .digital-market-bg .website-sec .digital-content p {
     color: #30225c;
 }
+.digital-market-bg > h2 {
+    font-size: 57px;
+    color: #30225c;
+    font-weight: 600;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.digital-market-bg {
+    padding-top: 150px;
+}
