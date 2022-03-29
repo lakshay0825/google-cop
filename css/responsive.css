@@ -96,6 +96,9 @@
     .digital-market-bg > h2 {
         font-size: 50px;
     }
+    .working-txt h2 {
+        font-size: 45px;
+    }
 }
 @media screen and (max-width:1400px){
     .navigation_menu {
@@ -539,6 +542,13 @@
     .digital-market-bg .website-sec {
         padding-bottom: 0px;
     }
+    .main-bg.service-bg {
+        padding: 100px 0 130px;
+        margin-top: 40px;
+    }
+    .working-main h3 {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width:800px){
@@ -557,6 +567,9 @@
     .industry-txt ul li {
         font-size: 18px;
         margin-bottom: 10px;
+    }
+    .tab-main .nav .nav-item {
+        flex: 1 1 100%;
     }
 
 }
@@ -780,6 +793,12 @@
     }
     .digital-market-bg > h2 br{
         display: none;
+    }
+    .working-main {
+        margin-bottom: 25px;
+    }
+    .working-main img {
+        height: 50px;
     }
 }
 

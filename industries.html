@@ -28,7 +28,14 @@
                             <div class="navigation_menu">
                                 <ul>
                                     <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Services</a></li>
+                                    <li><a href="services.html">Services</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="website.html">Website</a></li>
+                                            <li><a href="advertising.html">Advertising</a></li>
+                                            <li><a href="marketing.html">Digital Marketing</a></li>
+                                            <li><a href="social-media.html">Social Media</a></li>
+                                        </ul>
+                                    </li>
                                     <li><a href="#">Plans</a></li>
                                     <li><a href="contact.html">Contact Us</a></li>
                                     <li><a href="#"><i class="fa fa-search"></i></a></li>
@@ -246,5 +253,14 @@
                 jQuery(this).toggleClass('close');
                 jQuery('.navigation_menu').toggleClass('active');
             })
+
+            jQuery(window).scroll(function(){
+                var sticky = jQuery('.header'),
+                    scroll = jQuery(window).scrollTop();
+
+                if (scroll >= 100) sticky.addClass('fixed');
+                else sticky.removeClass('fixed');
+                });
+
         </script>
     </body>
