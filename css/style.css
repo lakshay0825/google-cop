@@ -257,7 +257,7 @@ header.header.fixed {
 }
 .navigation_menu ul li {
     display: inline-block;
-    padding: 0 14px;
+    padding: 0 8px;
     position: relative;
 }
 .navigation_menu {
