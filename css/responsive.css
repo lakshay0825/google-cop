@@ -149,6 +149,13 @@
         width: 800px;
     }
 }
+@media screen and (max-width:1300px){
+    .pricing_main {
+        height: 800px;
+        background-position: -50px -250px;
+    }
+}
+
 @media screen and (max-width:1200px){
     .testimonial-main.testimonial-2 {
         background-position: 0 0px;
@@ -377,6 +384,16 @@
         left: 0;
         transition: 0.5s all;
     }
+
+    .navigation_menu ul.sub-menu {
+        position: relative;
+        background: transparent;
+    }
+    
+    .navigation_menu ul.sub-menu::before {
+        content: none;
+    }
+
     .header_inner {
         justify-content: space-between;
     }
@@ -384,6 +401,14 @@
     
     .header_inner {
         position: relative;
+    }
+    .price-info ul li {
+        font-size: 11px;
+    }
+    
+    .pricing_main {
+        height: 890px;
+        background-position: -40px -160px;
     }
 }
 
@@ -614,6 +639,14 @@
     .working-main h3 {
         font-size: 30px;
     }
+    .pricing_main {
+        background-position: right center;
+        margin-bottom: 25px;
+        height: 770px;
+    }
+    .price-info ul li {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width:800px){
@@ -799,6 +832,18 @@
     }
     .working-main img {
         height: 50px;
+    }
+    .pricing_main {
+        height: auto;
+    }
+    .comparison-main tbody th {
+        height: auto;
+        line-height: 22px;
+        padding: 5px 0;
+        font-size: 15px;
+    }
+    .expand-main h2 {
+        padding-left: 0;
     }
 }
 
