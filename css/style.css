@@ -238,6 +238,13 @@ a {
     font-display: swap;
 }
 
+@font-face {
+    font-family: "Avenir Next LT Pro";
+    src: url('../fonts/AvenirNextLTPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
 .container {
     max-width: 1440px;
 }
