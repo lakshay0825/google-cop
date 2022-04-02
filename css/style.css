@@ -4956,3 +4956,91 @@ body.dashboard {
     font-weight: 500;
     font-family: "Raleway";
 }
+
+.login-form {
+    border-radius: 30px;
+    border: 0.3px solid rgb(131 104 212);
+    background: #fff;
+    padding: 50px;
+    position: relative;
+}
+section.login-sec {
+    position: relative;
+    padding: 100px 0;
+}
+
+.login-form h1 {
+    font-size: 59px;
+    color: #31235d;
+    font-family: "Avenir Next LT Pro";
+    text-align: center;
+}
+
+.login-form p {
+    font-size: 36px;
+    color: #31235d;
+    font-family: "Avenir Next LT Pro";
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.login-form .form-group i {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.login-form .form-group {
+    position: relative;
+}
+
+.login-form .form-group .form-control {
+    border-radius: 30px;
+    background-color: #fefefe;
+    border: 0.6px solid #30225c;
+    text-indent: 30px;
+    height: 50px;
+    font-size: 20px;
+    color: #30225c;
+    font-family: "Avenir Next LT Pro";
+}
+a.forgot-pass {
+    font-size: 25px;
+    color: #30225c;
+    font-family: "Avenir Next LT Pro";
+    text-align: center;
+    text-decoration: none;
+}
+
+a.forgot-pass {
+    font-size: 25px;
+    color: #30225c;
+    font-family: "Avenir Next LT Pro";
+    text-align: center;
+    text-decoration: none;
+}
+
+button.log-in {
+    font-size: 25px;
+    color: #ffffff;
+    font-family: "Avenir Next LT Pro";
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 34px;
+    background-color: #8368d4;
+    border: 1px solid #8368d4;
+    margin-right: 15px;
+}
+
+button.sign-up {
+    font-size: 25px;
+    color: #8368d4;
+    font-family: "Avenir Next LT Pro";
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 34px;
+    background-color: #ffffff;
+    border: 1px solid #8368d4;
+}
