@@ -5046,3 +5046,15 @@ button.sign-up {
     background-color: #ffffff;
     border: 1px solid #8368d4;
 }
+.login-form .social-icons {
+    text-align: center;
+}
+.login-form .social-icons li a {
+    border-radius: 20px;
+    border: solid 1px;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    line-height: 32px;
+    text-align: center;
+}
