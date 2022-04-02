@@ -4963,6 +4963,7 @@ body.dashboard {
     background: #fff;
     padding: 50px;
     position: relative;
+    box-shadow: inset 10px 10px 10px #f4f2f9, 10px 10px 10px #f4f2f9;
 }
 section.login-sec {
     position: relative;
@@ -4988,6 +4989,7 @@ section.login-sec {
     position: absolute;
     left: 15px;
     top: 15px;
+    color: #8d86a5;
 }
 
 .login-form .form-group {
