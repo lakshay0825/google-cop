@@ -5378,3 +5378,39 @@ p.top-space {
     padding-bottom: 0;
     background: none;
 }
+.ready-bg.about-ready {background: linear-gradient(180deg, transparent, #f7f3ff);}
+.ready-bg.about-ready.about-ready-bottom {
+    margin: 0;
+    background: #f6f2ff;
+    padding: 60px 0 130px;
+}
+.protect-sec {
+    padding: 150px 0;
+    text-align: center;
+    background: url(../img/about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.protect-sec .protect-main h2 {
+    font-size: 63px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'AvantGarde Bk BT';
+    text-align: center;
+    margin-bottom: 20px;
+}
+.protect-main a {
+    border-radius: 30px;
+    background-color: #30225c;
+    display: inline-block;
+    width: 240px;
+    height: 50px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'AvantGarde Bk BT';
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+}
