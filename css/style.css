@@ -4978,14 +4978,17 @@ section.login-sec {
 }
 
 .login-form h1 {
-    font-size: 59px;
+    font-size: 50px;
     color: #31235d;
     font-family: "Avenir Next LT Pro";
     text-align: center;
+    margin-bottom: 10px;
 }
-
+.login-form form {
+    padding: 0 70px;
+}
 .login-form p {
-    font-size: 36px;
+    font-size: 30px;
     color: #31235d;
     font-family: "Avenir Next LT Pro";
     text-align: center;
@@ -5064,4 +5067,314 @@ button.sign-up {
     display: inline-block;
     line-height: 32px;
     text-align: center;
+}
+button.log-in.fg-btn {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.login-form .form-group a.back-btn {
+    font-size: 20px;
+    color: #31235d;
+    font-family: "Avenir Next LT Pro";
+    text-align: center;
+    text-decoration: none;
+}
+.login-form.forgot-form {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.tab-content-main {
+    background: url(../img/bg-1.png);
+    background-repeat: no-repeat;
+    padding: 20px 40px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.tab-content-main h3 {
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Raleway";
+    margin-bottom: 20px;
+}
+
+.tab-content-main ul li img {
+    width: 20px;
+    filter: brightness(10);
+}
+
+.tab-content-main ul li {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Raleway";
+}
+.business-tab-main .nav-tabs li a {
+    font-size: 20px;
+    color: #4f4f4f;
+    font-family: "Mont";
+}
+
+.business-tab-main .nav-tabs li a {
+    border: none;
+}
+
+.business-tab-main .nav-tabs {
+    border: none;
+    display: block;
+    text-align: center;
+}
+
+.business-tab-main .nav-tabs li {
+    display: inline-block;
+}
+
+.business-tab-sec {
+    padding: 70px 0;
+}
+
+.business-tab-main .tab-content {
+    padding: 20px 50px;
+}
+.phone-img {
+    position: relative;
+}
+
+.phone-img img {
+    position: absolute;
+    width: 480px;
+    top: -40px;
+}
+.business-tab-main h2 {
+    font-size: 63px;
+    color: #30225c;
+    font-weight: 500;
+    font-family: 'AvantGarde Bk BT';
+    text-align: center;
+    margin-bottom: 30px;
+}
+.business-tab-main .nav-tabs li a.active {
+    border-bottom: solid 3px #8368d4;
+    background: transparent;
+}
+.digital-content li img {
+    width: 20px;
+    filter: brightness(10);
+}
+.digital-content ul li {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Raleway";
+}
+.award-winning {
+    background: linear-gradient(180deg, transparent 60%, #8367d375);
+    PADDING: 100px 0;
+}
+
+.award-winning  li img {
+    width: 20px;
+    filter: brightness(10);
+}
+.award-winning  ul li {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Raleway";
+}
+
+.award-main {
+    padding: 40px 30px;
+    background-color: #30225c;
+    background-image: url(../img/award.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    height: 100%;
+}
+.award-main h3 {
+    font-size: 27px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'AvantGarde Bk BT';
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.award-price {
+    width: 206px;
+    height: 206px;
+    border-radius: 103px;
+    background-color: #ffffff;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: solid 7px #8368d4;
+}
+
+.award-main p {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Avant Garde";
+    text-align: center;
+}
+
+.award-main .award-price p {
+    flex: 1 1 100%;
+    font-size: 68px;
+    color: #8368d4;
+    font-weight: 500;
+    font-family: 'AvantGarde Bk BT';
+    text-align: center;
+}
+
+.award-price p sup {
+    top: -11px;
+    font-size: 45px;
+}
+.award-main a {
+    width: 196px;
+    height: 64px;
+    border-radius: 30px;
+    background-color: #8367d3;
+    display: block;
+    line-height: 60px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'AvantGarde Bk BT';
+    text-align: center;
+    margin: 15px auto 30px;
+}
+p.top-space {
+    margin-top: 32px;
+}
+.award-bottom h2 {
+    font-size: 63px;
+    color: #30225c;
+    font-weight: 500;
+    font-family: 'AvantGarde Bk BT';
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.award-bottom {
+    margin-top: 40px;
+}
+
+.award-bottom a {
+    width: 286px;
+    height: 64px;
+    border-radius: 30px;
+    background-color: #8368d4;
+    display: inline-block;
+    line-height: 64px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'AvantGarde Bk BT';
+    text-align: center;
+    margin-bottom: 50px;
+}
+.award-winning h2 {
+    font-size: 63px;
+    color: #30225c;
+    font-weight: 500;
+    font-family: 'AvantGarde Bk BT';
+    text-align: center;
+    margin-bottom:30px
+}
+
+/* Styles for Accordion */
+.toggle {
+    border-bottom: 1px solid #959595;
+  }
+  .toggle .toggle-title {
+    position: relative;
+    display: block;
+    margin-bottom: 6px;
+  }
+  .toggle .toggle-title h3 {
+    font-size: 20px;
+    margin: 0px;
+    line-height: 1;
+    cursor: pointer;
+    font-weight: 200;
+  }
+  .toggle .toggle-inner {
+    padding: 7px 25px 10px 25px;
+    display: none;
+    margin: -7px 0 6px;
+  }
+  .toggle .toggle-inner div {
+    max-width: 100%;
+  }
+  .toggle .toggle-title .title-name {
+    display: block;
+    padding: 14px 25px 14px;
+    font-size: 25px;
+    color: #3c3c3c;
+    font-family: "Microsoft New Tai Lue";
+  }
+  .toggle .toggle-title a i {
+    font-size: 22px;
+    margin-right: 5px;
+  }
+  .toggle .toggle-title i {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s ease;
+    margin: 20px;
+    right: 0;
+  }
+  .toggle .toggle-title i.fa-angle-down {
+      display:none;
+  }
+  .toggle .toggle-title.active i.fa-angle-down {
+      display:block;
+  }
+  .toggle .toggle-title.active i.fa-angle-right {
+      display:none;
+  }
+  .faq-sec {
+    padding: 100px 0;
+    background: #e6dff2;
+    position: relative;
+}
+.faq-sec h2 {
+    font-size: 42px;
+    color: #3b2b6c;
+    font-weight: 500;
+    font-family: 'AvantGarde Bk BT';
+    text-align: center;
+    margin-bottom: 30px;
+}
+.toggle-inner p {
+    font-size: 17px;
+    color: #3c3c3c;
+}
+.main-bg.business-info {
+    padding-top: 50px;
+}
+
+.main-bg.business-info .award-winning p {
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #565656;
+    font-weight: 500;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.main-bg.business-info .award-winning h2 {
+    margin-bottom: 15px;
+}
+.main-bg.business-info .award-winning {
+    padding-bottom: 0;
+    background: none;
 }

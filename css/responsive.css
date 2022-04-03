@@ -99,6 +99,47 @@
     .working-txt h2 {
         font-size: 45px;
     }
+    .business-tab-main h2 {
+        font-size: 50px;
+    }
+    .business-tab-sec {padding: 0 0 70px;}
+    .tab-content-main h3 {
+        font-size: 30px;
+    }
+    .tab-content-main ul li {
+        font-size: 18px;
+    }
+    .tab-content-main h3 {
+        font-size: 30px;
+    }
+    
+    .tab-content-main ul li {
+        font-size: 18px;
+    }
+    
+    .award-main .award-price p {
+        font-size: 58px;
+    }
+    
+    .award-price {
+        width: 180px;
+        height: 180px;
+    }
+    
+    .award-winning ul li {
+        font-size: 18px;
+    }
+    
+    p.top-space {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .award-bottom h2 {
+        font-size: 50px;
+    }
+    .award-winning h2 {
+        font-size: 50px;
+    }
 }
 @media screen and (max-width:1400px){
     .navigation_menu {
@@ -726,6 +767,32 @@
         font-size: 18px;
     }
     .dash-bg-2 {margin-top: 10px;}
+
+    .business-tab-main .nav-tabs li a {
+        font-size: 16px;
+    }
+    
+    .business-tab-main .tab-content {
+        padding: 0;
+    }
+    
+    .phone-img img {
+        position: unset;
+    }
+    
+    .business-tab-main .tab-content-main h3 br {
+        display: none;
+    }
+    .tab-content-main {
+        background-size: cover;
+    }
+    .website-sec .digital-content h2 br {display: none;}
+    .award-winning h2 {
+        font-size: 45px;
+    }
+    .business-tab-main h2{
+        font-size: 45px;
+    }
 }
 
 @media screen and (max-width:800px){
@@ -924,6 +991,14 @@
     .expand-main h2 {
         padding-left: 0;
     }
+    .award-main {
+        background-size: cover;
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .award-winning {
+        padding-top: 50px;
+    }
 }
 
 @media screen and (max-width:631px){
@@ -1045,6 +1120,22 @@
     .testimonial-main.testimonial-2 {
         background-position: 0 -110px;
     }
+    .award-winning h2 {
+        font-size: 35px;
+    }
+    .business-tab-main h2{
+        font-size: 35px;
+    }
+    .tab-content-main h3 {
+        font-size: 25px;
+    }
+    .website-sec .digital-content h2 {
+        font-size: 35px;
+    }
+    
+    .digital-content ul li {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width:575px){
@@ -1075,6 +1166,9 @@
     
     .login-form p {
         font-size: 18px;
+    }
+    .login-form form {
+        padding: 0 30px;
     }
 }
 @media screen and (max-width:400px){
