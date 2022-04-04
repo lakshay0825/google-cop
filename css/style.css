@@ -2670,7 +2670,7 @@ ul.social-icons li a:hover {
     background-size: cover;
     background-position: top center;
     padding-top: 150px;
-    margin-top: -80px;
+    margin-top: -100px;
 }
 .footer .form-sec h3 {
     font-size: 33px;
@@ -3855,7 +3855,7 @@ section.benefit-sec {
     color: #ffffff;
     font-weight: 500;
     font-family: 'AvantGarde Bk BT';
-    text-align: right;
+    text-align: center;
     margin-bottom: 30px;
 }
 .blue-sec.boost-blue .blue-txt p {
@@ -3919,11 +3919,11 @@ section.benefit-sec {
 
 .compare-sec {
     position: relative;
-    padding: 150px 0;
+    padding: 120px 0;
     background-image: url(../img/brand-sec-bg.png);
     background-size: cover;
     background-position: top center;
-    margin-top: 120px;
+    margin-top: 40px;
 }
 .discription {font-size: 30px;color: #30225c;font-weight: 500;line-height: normal;font-family: 'AvantGarde Bk BT';}
 
