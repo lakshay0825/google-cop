@@ -218,6 +218,23 @@
     section.login-sec {
         padding: 60px 0;
     }
+    .project-main h2 {
+        font-size: 40px;
+    }
+    
+    .project-main ul li h3 {
+        font-size: 40px;
+        margin-top: 15px;
+    }
+    .protect-sec .protect-main h2 {
+        font-size: 45px;
+    }
+    .protect-sec {
+        padding: 100px 0;
+    }
+    .workflow-main {
+        margin-bottom: 25px;
+    }
 }
 @media screen and (max-width:1300px){
     .pricing_main {
