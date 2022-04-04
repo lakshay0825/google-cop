@@ -4577,7 +4577,7 @@ section.expand-sec {
 .dashboard-header {
     position: relative;
     background: #444444;
-    padding: 15px 20px;
+    padding: 8px 20px;
 }
 .dashboard-header .logo {width: 100px;}
 .dashboard-menu ul li img {
@@ -4622,7 +4622,7 @@ section.expand-sec {
 }
 
 .left-content a {
-    font-size: 20px;
+    font-size: 18px;
     color: #ffffff;
     font-weight: 500;
     font-family: "Raleway";
@@ -4633,7 +4633,7 @@ section.expand-sec {
     padding-right: 20px;
 } 
 .center-content a {
-    font-size: 20px;
+    font-size: 18px;
     color: #ffffff;
     font-weight: 500;
     font-family: "Raleway";
@@ -4685,7 +4685,7 @@ body.dashboard {
 }
 
 .keyword-main h3 {
-    font-size: 22px;
+    font-size: 16px;
     color: #444444;
     font-weight: 500;
     font-family: "Raleway";
@@ -4705,11 +4705,11 @@ body.dashboard {
     padding: 0 10px;
 }
 
-.keyword-inner p {flex: 1 1 43%;font-size: 15px;color: #444444;font-weight: 400;font-family: "Lato";padding: 0 10px;}
+.keyword-inner p {flex: 1 1 43%;font-size: 14px;color: #444444;font-weight: 400;font-family: "Lato";padding: 0 10px;}
 
 .keyword-inner h5 {
     flex: 1 1 25%;
-    font-size: 83px;
+    font-size: 40px;
     color: #7cb6ed;
     font-weight: 500;
     font-family: "Raleway";
@@ -4719,7 +4719,7 @@ body.dashboard {
 }
 .keyword-inner h5 span {
     color: #444444;
-    font-size: 25px;
+    font-size: 15px;
     display: block;
 }
 .key-btn {
@@ -4727,7 +4727,7 @@ body.dashboard {
 }
 
 .key-btn a {
-    font-size: 16px;
+    font-size: 14px;
     color: #444444;
     font-weight: 400;
     font-family: "Lato";
@@ -4736,11 +4736,11 @@ body.dashboard {
     background-color: #ffffff;
     border: 0.3px solid #b7b7b7;
     display: inline-block;
-    width: 175px;
+    width: 165px;
     text-align: center;
-    margin-top: 15px;
-    height: 42px;
-    line-height: 40px;
+    margin-top: 10px;
+    height: 35px;
+    line-height: 34px;
 }
 
 .keyword-inner h5 span {position: absolute;right: 0;bottom: -8px;}
@@ -4754,13 +4754,13 @@ body.dashboard {
 .keyword-main ul {
     display: inline-flex;
     flex-wrap: wrap;
-    margin: 5px 0 0 -20px;
+    margin: 0px 0 0 -20px;
     width: calc(100% + 20px);
     align-items: center;
     align-content: center;
 }
 
-.keyword-main ul li {margin: 0px 0 0 20px;font-size: 15px;color: #444444;font-weight: 400;font-family: "Lato";flex: 1 1 30%;text-align: right;position: relative;padding: 10px 20px 10px 20px;}
+.keyword-main ul li {margin: 0px 0 0 20px;font-size: 14px;color: #444444;font-weight: 400;font-family: "Lato";flex: 1 1 30%;text-align: right;position: relative;padding: 6px 20px 5px 20px;}
 
 .keyword-main ul li img {
     width: 24px;
@@ -4773,13 +4773,14 @@ body.dashboard {
     background-color: #ecf2ff;
 }
 .select-form .form-control {
-    width: 200px;
+    width: 180px;
     margin-left: auto;
     padding-right: 20px;
+    font-size: 12px;
 }
 
 .select-form {
-    margin-top: 15px;
+    margin-top: 10px;
     position: relative;
 }
 
@@ -4787,7 +4788,7 @@ body.dashboard {
     content: "\f107";
     position: absolute;
     right: 0;
-    top: 6px;
+    top: 3px;
     right: 8px;
     font-family: FontAwesome;
 }
@@ -4799,7 +4800,7 @@ body.dashboard {
     color: #444444;
     font-weight: 700;
     font-family: "Lato";
-    padding: 6px 0;
+    padding: 3px 0;
 }
 
 .total-content ul {
@@ -4815,7 +4816,7 @@ body.dashboard {
     background: none;
 }
 
-.total-img img {width: 150px;}
+.total-img img {width: 120px;}
 
 .total-img {
     padding-left: 60px;
@@ -4851,7 +4852,7 @@ body.dashboard {
 
 .keyword-main .key-head ul li:last-child::before {content: "";position: absolute;left: 0;height: 65%;width: 1px;background: #fff;top: 8px;}
 .total-img.total-right img {
-    width: 260px;
+    width: 120px;
 }
 .total-content p {
     font-size: 15px;
@@ -4866,7 +4867,7 @@ body.dashboard {
 .keyword-main .user-lists li img {
     position: unset;
     width: auto;
-    height: 50px;
+    height: 35px;
     margin-right: 30px;
 }
 .keyword-main .user-lists ul li {padding: 5px 30px;display: flex;flex-wrap: wrap;background: none;align-items: center;align-content: center;}
@@ -4876,7 +4877,7 @@ body.dashboard {
 }
 
 .keyword-main .user-lists ul li .list-item h3 {
-    font-size: 64px;
+    font-size: 50px;
     color: #7cb6ed;
     font-weight: 500;
     font-family: "Raleway";
@@ -4905,14 +4906,14 @@ body.dashboard {
     height: 100%;
 }
 .dash-txt h3 {
-    font-size: 25px;
+    font-size: 22px;
     color: #ffffff;
     font-weight: 500;
     font-family: "Raleway";
 }
 
 .dash-img img {
-    width: 320px;
+    width: 240px;
 }
 
 .dash-img {
@@ -4922,15 +4923,15 @@ body.dashboard {
 .dash-txt a {
     border-radius: 7px;
     display: inline-block;
-    width: 200px;
+    width: 160px;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 10px;
     border-radius: 7px;
     border: 0.3px solid #b7b7b7;
-    height: 40px;
-    line-height: 40px;
+    height: 35px;
+    line-height: 35px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Lato";
@@ -4952,13 +4953,13 @@ body.dashboard {
     padding: 10px 20px;
 }
 .dash-bg-2 h3 {
-    font-size: 25px;
+    font-size: 22px;
     color: #ffffff;
     font-weight: 500;
     font-family: "Raleway";
 }
 .dash-bg-2 .dash-img img {
-    width: 70px;
+    width: 35px;
     margin-bottom: 10px;
 }
 
