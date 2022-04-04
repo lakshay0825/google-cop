@@ -5414,3 +5414,107 @@ p.top-space {
     text-decoration: none;
     line-height: 50px;
 }
+.project-main {
+    background: url(../img/bg12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    border-radius: 20px;
+}
+.project-main h2 {
+    font-size: 55px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'AvantGarde Bk BT';
+}
+
+.project-main ul li h3 {
+    font-size: 63px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'AvantGarde Bk BT';
+}
+
+.project-main ul li {
+    display: inline-block;
+    padding: 0 6px;
+}
+
+.project-main ul li p {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'AvantGarde Bk BT';
+}
+.project-sec {
+    padding-bottom: 80px;
+}
+.workflow-content h2 {
+    font-size: 63px;
+    color: #30225c;
+    font-weight: 500;
+    font-family: "Avant Garde";
+    text-align: right;
+}
+
+.workflow-content p {
+    font-size: 24px;
+    color: #30225c;
+    font-weight: 500;
+    font-family: "Avant Garde";
+    text-align: right;
+}
+
+.workflow-cicle {
+    width: 300px;
+    position: relative;
+    border-radius: 50%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.workflow-cicle .workflow-overflow {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    font-size: 148px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Roboto";
+    text-align: center;
+    height: 100%;
+    background: rgb(48 34 92 / 90%);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.workflow-cicle .workflow-overflow p {
+    width: 100%;
+}
+.workflow-main-content h3 {
+    font-size: 30px;
+    color: #30225c;
+    font-weight: 500;
+    font-family: 'AvantGarde Bk BT';
+    text-align: center;
+    margin: 20px 0;
+    min-height: 70px;
+}
+
+.workflow-main-content p {
+    font-size: 18px;
+    color: #30225c;
+    font-weight: 500;
+    font-family: "Avant Garde";
+    text-align: center;
+}
+.workflow-sec {
+    padding: 100px 0;
+    background:url(../img/workflow-bg.png);
+    background-repeat: no-repeat;
+}
+
+.workflow-content {
+    margin-bottom: 50px;
+}
