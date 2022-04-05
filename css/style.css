@@ -421,7 +421,7 @@ ul.social-icons li a:hover {
     -webkit-appearance: none;
     resize: none;
 }
-button.sbtn {
+.sbtn {
     width: 135px;
     height: 50px;
     border-radius: 9px;
@@ -433,10 +433,14 @@ button.sbtn {
     text-transform: uppercase;
     border: solid 1px #8368d4;
     transition: all 0.3s;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
 }
-button.sbtn:hover {
+.sbtn:hover {
     background: transparent;
     border: solid 1px #8368d4;
+    color: #8368d4;
 }
 .form-sec {
     position: relative;
@@ -2800,7 +2804,7 @@ a.forgot-pass {
     line-height: 32px;
     text-align: center;
 }
-button.log-in.fg-btn {
+.log-in.fg-btn {
     width: 100%;
     margin-bottom: 10px;
 }
@@ -3015,7 +3019,7 @@ p.top-space {
 .award-winning h2 {
     font-size: 63px;
     color: #30225c;
-    font-weight: 500;
+    font-weight: 700;
     font-family: 'AvantGarde Bk BT';
     text-align: center;
     margin-bottom:30px
