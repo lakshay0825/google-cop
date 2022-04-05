@@ -1187,6 +1187,9 @@
     .login-form form {
         padding: 0 30px;
     }
+    .pricing-main-inner {
+        padding: 20px 25px;
+    }
 }
 @media screen and (max-width:400px){
     .banner-txt h1 {
