@@ -3416,14 +3416,6 @@ h5.popular {
 .form-sec select.form-control {
     display: none;
 }
-.wrap h1{
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, -40px -40px 0px rgba(28,110,164,0);
-    color: #181B33;
-    background: #232323;
-    font-size: 47px;
-    text-align: center;
-    font-family: monospace;
-}
 .custom-select {
     top: 0;
     right: 0;
@@ -3459,10 +3451,6 @@ h5.popular {
     transition: all 0.5s;
     transform-origin: 50% 25%;
 }
-/*.custom-select:hover {
-    background-color: #b83729;
-}
-*/
 .custom-select:active, .custom-select.active {
     color: #9E9E9E;
 }
