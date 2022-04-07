@@ -3392,3 +3392,22 @@ h5.popular {
     text-align: center;
     margin-bottom: 30px;
 }
+.form-sec  select.form-control {
+    font-size: 17px;
+    color: #9d9d9d;
+    font-weight: 500;
+    font-family: "Raleway";
+    outline: none;
+    box-shadow: none;
+}
+.select-inner {
+    position: relative;
+}
+.select-inner::before {
+    content: "\f107";
+    position: absolute;
+    font-family: 'FontAwesome';
+    right: 12px;
+    top: 7px;
+    font-size: 24px;
+}
